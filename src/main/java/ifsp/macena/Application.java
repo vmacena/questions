@@ -12,7 +12,7 @@ public class Application {
 
         System.out.print("Informe um número para verificar na sequência de Fibonacci: ");
         int number = scanner.nextInt();
-        scanner.nextLine(); // Consumir a nova linha
+        scanner.nextLine();
         boolean isInFibonacci = Fibonacci.isInFibonacciSequence(number);
         System.out.println("O número " + number + (isInFibonacci ? " pertence " : " não pertence ") + "à sequência de Fibonacci.");
 
